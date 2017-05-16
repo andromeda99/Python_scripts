@@ -1,0 +1,54 @@
+exception BaseException
+exception Exception
+exception StandardError
+exception ArithmeticError
+exception BufferError
+exception LookupError
+exception EnvironmentError
+exception AssertionError
+exception AttributeError
+exception EOFError
+exception FloatingPointError
+exception GeneratorExit
+exception IOError
+exception ImportError
+exception IndexError
+exception KeyError
+exception KeyboardInterrupt
+exception MemoryError
+exception NameError
+exception NotImplementedError
+exception OSError
+		     +-- WindowsError (Windows)
+      |    |         +-- VMSError (VMS
+exception OverflowError
+exception ReferenceError
+exception RuntimeError
+exception StopIteration
+exception SyntaxError
+		     +-- IndentationError
+      |    |         +-- TabError
+exception IndentationError
+exception TabError
+exception SystemError
+exception SystemExit
+exception TypeError
+exception UnboundLocalError
+exception UnicodeError
+      |              +-- UnicodeDecodeError
+      |              +-- UnicodeEncodeError
+      |              +-- UnicodeTranslateError
+exception ValueError
+exception VMSError
+exception WindowsError
+exception ZeroDivisionError
+Warning
+           +-- DeprecationWarning
+           +-- PendingDeprecationWarning
+           +-- RuntimeWarning
+           +-- SyntaxWarning
+           +-- UserWarning
+           +-- FutureWarning
+	   +-- ImportWarning
+	   +-- UnicodeWarning
+	   +-- BytesWarning

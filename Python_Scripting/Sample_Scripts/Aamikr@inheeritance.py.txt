@@ -1,0 +1,33 @@
+'''
+Created on Jul 15, 2016
+
+@author: LAB207
+'''
+class Operation():
+        a =3
+        def funz(self):
+                print 'Hi i am in My Funz'
+                
+                
+Myobjectx = Operation()
+Myobjectx.funz()
+
+class Operation2(Operation):
+        def funct(self):
+            print 'Hi i am in My funct'
+                
+Myobjecty = Operation2()
+Myobjecty.funct()
+Myobjecty.funz()
+print Myobjectx.a
+
+
+
+
+                
+                
+
+
+
+
+
