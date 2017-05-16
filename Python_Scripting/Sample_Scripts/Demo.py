@@ -7,8 +7,8 @@ from string import count
 
 name = 'aamir' ; age = 29; height = 5.9
 
-print name
-print " "
+print("name")
+print (" ")
 print age
 print height 
 
@@ -32,7 +32,7 @@ tinydict = {"name":"aamir" , "words": "dynamic", "count":111}
 print tinydict
 print tinydict.keys()
 print tinydict.values()
-print tinydict[name]
+#print tinydict[name]
 
 a=10
 b=5
