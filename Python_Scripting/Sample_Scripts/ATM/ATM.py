@@ -3,12 +3,6 @@ Created on Jul 18, 2016
 
 @author: Aamir
 '''
-from OOP.ATM_class import atmoptions
-from OOP.ATM_function import atmfunctions, mini, withdr, exitt
-
-
-
-
 
 
 n=1

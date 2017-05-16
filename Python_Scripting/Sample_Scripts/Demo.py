@@ -3,7 +3,7 @@ Created on Jul 12, 2016
 
 @author: LAB207
 '''
-from string import count
+#from string import count
 
 name = 'aamir' ; age = 29; height = 5.9
 
